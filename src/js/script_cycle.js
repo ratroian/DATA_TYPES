@@ -1,4 +1,4 @@
-console.log('---cicles---');
+console.log('---cicles task---');
 
 const getSummOfRange = (minValue, maxValue) => {
     let summ = 0;

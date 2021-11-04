@@ -1,4 +1,4 @@
-console.log('---conditional operators---')
+console.log('---conditional operators task---')
 
 const getMathResult = (firstValue, secondValue) => {
     let result;
@@ -38,6 +38,18 @@ const getSumm = (firstValue, secondValue, thirdValue) => {
     console.log(result);
 }
 
+const calculateNumbers = (firstValue, secondValue, thirdValue) => {
+    const firstExample = firstValue*secondValue*thirdValue;
+    const secondExample = firstValue+secondValue+thirdValue;
+    let result;
+    if (firstExample > secondExample) {
+        result = firstExample + 3;
+    } else {
+        result = secondExample + 3;
+    };
+    console.log(result)
+};
+
 const getRating = (rating) => {
     const maxRatingF = 19;
     const maxRatingE = 39;
@@ -72,4 +84,5 @@ const getRating = (rating) => {
 getMathResult(3, 4);
 getQuarterPoint(3, 6);
 getSumm(5,-5,5);
+calculateNumbers(3,3,0)
 getRating(55);

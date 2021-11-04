@@ -1,4 +1,4 @@
-console.log('---arrays---');
+console.log('---arrays task---');
 const userArray = [2, 3, 5, 3];
 const getMinElement = (array) => {
     let minElement = array[0];
