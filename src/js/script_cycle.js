@@ -64,6 +64,8 @@ const getReversedValue = (value) => {
     console.log(result);
 }
 
+
+
 getSummOfRange(1, 99);
 getElementaryNumber(1);
 getSquareRoot(4);

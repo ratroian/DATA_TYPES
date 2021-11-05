@@ -189,24 +189,24 @@ getNumberToText(123);
 
 console.log('---end home work---');
 
-const userArrayCW = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-const chunks = 2;
+// const userArrayCW = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// const chunks = 2;
 
-const getChunksOfArray = (array, chunks) => {
-    const chunksQuantity = Math.ceil(array.length / chunks);
-    const newArray = new Array(chunksQuantity);
-    for (let i = 0; i < chunksQuantity; i++) {
-        newArray[i] = [];
-        console.log(newArray[i])
-    };
-    let additionalCount = 0;
-    for (let i = 0; i < array.length; i++) {
-        if (i !== 0 && i % chunks === 0) {
-            additionalCount++;
-        }
-        newArray[additionalCount].push(array[i]);
-    };
-    console.log (newArray);
-};
+// const getChunksOfArray = (array, chunks) => {
+//     const chunksQuantity = Math.ceil(array.length / chunks);
+//     const newArray = new Array(chunksQuantity);
+//     for (let i = 0; i < chunksQuantity; i++) {
+//         newArray[i] = [];
+//         console.log(newArray[i])
+//     };
+//     let additionalCount = 0;
+//     for (let i = 0; i < array.length; i++) {
+//         if (i !== 0 && i % chunks === 0) {
+//             additionalCount++;
+//         }
+//         newArray[additionalCount].push(array[i]);
+//     };
+//     console.log (newArray);
+// };
 
-getChunksOfArray(userArrayCW, chunks)
+// getChunksOfArray(userArrayCW, chunks)
